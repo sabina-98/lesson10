@@ -1,0 +1,273 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header div{
+    width: 100%;
+    height: 300px;
+    background-color: #df4f66;
+    text-align: center;
+    padding-top: 30px;
+}
+header nav ul{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin-left: 25%;
+    justify-content: space-between;  
+    padding-top: 20px;
+}
+header nav ul a{
+    text-decoration: none;
+    color: white;
+}
+header nav ul a:hover{
+    color: black;
+    border: 1px solid white;
+    background-color: white;
+    padding: 10px;
+}
+main .black-cont{
+    background-color: #3f3e3e;
+}
+main .black-cont .fb-cont{
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 4%;
+    padding-top: 50px;
+    height: 700px;
+}
+main .black-cont .fb-cont div{
+    width: 30%;
+    color: white;
+    margin-top: 50px;
+}
+main .black-cont .fb-cont img{
+    border-top: 30px solid;
+    border-right: 30px solid;
+    border-left: 30px solid;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+main .black-cont .fb-cont h2{
+    font-size: 40px;
+}
+main .black-cont .fb-cont p{
+    padding-top: 70px;
+    font-size: 20px;
+}
+main .black-cont .fb-cont button{
+    background-color: transparent;
+    border: 3px solid white;
+    padding: 15px;
+    margin-top: 40px;
+    font-size: 25px;
+}
+main .left-icon{
+    margin-top: 280px;
+    font-size: 50px;
+    margin-left: 3px;
+    border: 2px solid ;
+    height: 65px;
+    padding: 5px;
+    color: white;
+}
+main .right-icon{
+    margin-top: 280px;
+    font-size: 50px;
+    padding: 5px;
+    border: 2px solid ;
+    height: 65px;
+    color: white;
+}
+main .arrow:hover{
+    background-color: #df4f66;
+}
+main button:hover{
+    background-color: #df4f66;
+}
+main .cont-around{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-left: 10%;
+    height: 500px;
+    margin-top: 5%;
+}
+main .cont-around .left-img{
+    width: 30%;
+    text-align: center;
+}
+main .cont-around img{
+    width: 300px;
+    height: 300px;
+    /* padding: 30px; */
+    border-radius: 150px;
+    border: 8px solid rgb(161, 161, 161);
+}
+/* main .cont-around img:hover{
+    font-style: #c52742;
+} */
+main .cont-around .left-img div{
+    padding-top: 20px;
+    font-size: 25px;
+    text-align: center;
+}
+main .cont-around .left-img p{
+    padding-top: 20px;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+main .cont-around .left-img .readmore{
+    border: 1px solid;
+    padding: 15px;
+    margin-top: 50px;
+    width: 150px;
+    font-size: 20px;
+    border-radius: 3px;
+}
+main .cont-around .left-img .readmore:hover{
+    background-color: #e42a49;
+}
+main .cont-around .left-img a{
+    text-decoration: none;
+}
+main .cont-around .left-img .head-cont:hover{
+    color: #e42a49;
+}
+main .about-project{
+    width: 100%;
+    text-align: center;
+    background-color: #3f3e3e;
+    height: 130px;
+    margin-top: 10%;
+}
+main .about-project h2{
+    color: white;
+    font-size: 30px;
+    padding: 18px;
+}
+main .about-project p{
+    color: rgb(161, 161, 161);
+}
+main .image-blocks{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 40%;
+    height: 150px;
+    margin-left: 30%;
+}
+main .image-blocks a{
+    text-decoration: none;
+    border: 3px solid;
+    color: black;
+    padding: 10px;
+    border-radius: 7px;
+}
+main .image-blocks .showall{
+    background-color: #df4f66;
+    color: white;
+    border-radius: 7px;
+}
+main .second-a:hover{
+    background-color: #df4f66;
+    border-color: #df4f66;
+    color: white;
+}
+main .three-a:hover{
+    background-color: #df4f66;
+    border-color: #df4f66;
+    color: white;
+}
+main .four-a:hover{
+    background-color: #df4f66;
+    border-color: #df4f66;
+    color: white;
+}
+main .images-cont{
+    width: 90%;
+    display: flex;
+    height: 470px;
+    justify-content: space-around;
+    margin-left: 5%;
+    flex-wrap: wrap;
+}
+main .images-cont img{
+    width: 18%;
+    height: 200px;
+}
+main .pink-cont{
+    width: 100%;
+    text-align: center;
+    background-color: #df4f66;
+    height: 130px;
+    margin-top: 5%;
+}
+main .pink-cont h2{
+    color: white;
+    font-size: 30px;
+    padding: 18px;
+}
+main .pink-cont p{
+    color: rgb(161, 161, 161);
+}
+main .karusel-cont{
+    width: 85%;
+    display: flex;
+    justify-content: space-around;
+    height: 300px;
+    margin-left: 7%;
+    margin-top: 2%;
+    align-items: center;
+}
+main .karusel-cont img{
+    border-radius: 100px;
+}
+main .karusel-cont .child1{
+    width: 120px;
+    height: 120px;
+}
+main .karusel-cont .child2{
+    width: 150px;
+    height: 150px;
+}
+main .karusel-cont .child3{
+    width: 200px;
+    height: 200px;
+}
+footer .last-cont{
+    width: 100%;
+    background-color: #363535;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+}
+footer .last-cont .contactform{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 70px;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 10%;
+}
+footer .last-cont .contactform input{
+    width: 300px;
+    height: 40px;
+    margin: 15px;
+    padding: 5px;
+    background-color: transparent;
+}
+footer .text{
+    background-color: transparent;
+    padding: 10px;
+}
+footer .submit{
+    background-color: #df4f66;
+    width: 150px;
+    padding: 10px;
+    border-radius: 5px;
+}
